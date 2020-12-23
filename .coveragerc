@@ -10,6 +10,7 @@ include =
   *\Lib\site-packages\pytest.py
 parallel = 1
 branch = 1
+data_file = ${COVERAGE_DATA_PATH-.}/.coverage
 
 [paths]
 source = src/
