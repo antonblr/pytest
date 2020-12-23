@@ -10,6 +10,9 @@ include =
   *\Lib\site-packages\pytest.py
 parallel = 1
 branch = 1
+# coverage-enable-subprocess emits $TOP env var
+# during the tests run.
+data_file = ${TOP-.}/.coverage
 
 [paths]
 source = src/
